@@ -19,6 +19,7 @@ const GlobalStyled = createGlobalStyle`
         --font-2: 5rem; // 80px
         --font-3: 0.9375rem; // 15px
         --font-4: 1.25rem; // 20px
+        --font-5: 0.875rem; // 14px
     }
 `;
 

@@ -23,7 +23,6 @@ export const StyledTextSpan = styled.span`
     font-size: var(--font-1);
     color: var(--second-grey);
     margin-right: 1.125rem;
-
 `;
 
 export const TitleWrapper = styled.div`

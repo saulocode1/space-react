@@ -1,6 +1,6 @@
 import React from "react";
-import { StyledSection } from "../../Components/Section";
-import { FirstTitle, SectionText } from "../../Components/Text/styled";
+import { StyledSection } from "../../Components/Section/styled";
+import { FirstTitle, SectionText } from "../../Components/Section/SectionText/styled";
 import { HomeButton, MainTitle, TextWrapper } from "./styled";
 
 import Background from "../../assets/home/background-home-mobile.jpg"
@@ -9,7 +9,7 @@ const HomeSection = () => (
     <StyledSection
         background={Background}
         maxHeight="41.6875rem"
-        width="23.4375rem"
+        width="100vw"
         height="41.6875rem"
     >
         <TextWrapper>

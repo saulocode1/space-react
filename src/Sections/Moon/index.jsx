@@ -1,20 +1,19 @@
 import React from "react";
-import { StyledSection } from "../../Components/Section";
-import SectionImage from "../../Components/SectionImage/styled";
-import SectionFirstTitle from "../../Components/Text";
 
-import Background from "../../assets/destination/image-moon.png"
+import Background from "../../assets/destination/background-destination-mobile.jpg";
+import MoonImage from "../../assets/destination/image-moon.png";
+import Section from "../../Components/Section";
 
 const MoonSection = () => (
-    <StyledSection
+    <Section
         background={Background}
-        maxHeight="53.125rem"
-        width="23.4375rem"
+        number="01"
+        title="Pick your destination"
+        width="100vw"
         height="53.125rem"
-    >
-        <SectionFirstTitle title="Pick your destination" number="01" />
-        <SectionImage src="./assets/destination/image-moon.png" />
-    </StyledSection>
+        maxHeight="53.125rem"
+        src={MoonImage}
+    />
 );
 
 export default MoonSection;
