@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/space-react/static/js/main.bf04351f.js",
+    "main.js": "/space-react/static/js/main.8cb9d5bc.js",
     "static/js/787.de6df452.chunk.js": "/space-react/static/js/787.de6df452.chunk.js",
     "static/media/image-moon.png": "/space-react/static/media/image-moon.d287d07182de3015952f.png",
     "static/media/background-destination-mobile.jpg": "/space-react/static/media/background-destination-mobile.e0131e27e751ead1a922.jpg",
     "index.html": "/space-react/index.html",
     "static/media/logo.svg": "/space-react/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
     "static/media/icon-hamburger.svg": "/space-react/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
-    "main.bf04351f.js.map": "/space-react/static/js/main.bf04351f.js.map",
+    "main.8cb9d5bc.js.map": "/space-react/static/js/main.8cb9d5bc.js.map",
     "787.de6df452.chunk.js.map": "/space-react/static/js/787.de6df452.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.bf04351f.js"
+    "static/js/main.8cb9d5bc.js"
   ]
 }
