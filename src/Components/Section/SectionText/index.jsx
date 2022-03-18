@@ -1,11 +1,11 @@
 import React from "react";
 import { FirstTitle, StyledTextSpan, TitleWrapper } from "./styled";
 
-const SectionFirstTitle = ({title, number}) => (
+const SectionFirstTitle = ({titleNumber, firstTitle}) => (
     <TitleWrapper>
         <FirstTitle>
-            <StyledTextSpan>{number}</StyledTextSpan>
-            {title}
+            <StyledTextSpan>{titleNumber}</StyledTextSpan>
+            {firstTitle}
         </FirstTitle>
     </TitleWrapper>
 )

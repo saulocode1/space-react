@@ -17,6 +17,12 @@ export const SectionText = styled.p`
     line-height: var(--line-height-1);
 `;
 
+export const TextWrapper = styled.div`
+    width: 20.4375rem;
+    text-align: center;
+    margin-bottom: 2rem;
+`;
+
 export const StyledTextSpan = styled.span`
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 400;
@@ -31,4 +37,10 @@ export const TitleWrapper = styled.div`
     justify-content: space-between;
     margin-top: 5.5rem;
     margin-bottom: 2rem;
+`;
+
+export const MainTitle = styled.h1`
+    font: 400 var(--font-6) "Bellafair";
+    color: var(--color-white);
+    text-transform: uppercase;
 `;

@@ -14,7 +14,7 @@ export const TextWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    padding-top: 112px;
+    padding-top: 7rem;
     margin-inline: auto;
     margin-bottom: 5rem;
 `;

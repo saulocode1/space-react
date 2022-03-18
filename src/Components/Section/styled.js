@@ -10,3 +10,9 @@ export const StyledSection = styled.section`
     background-image: url(${(props) => props.background});
     background-repeat: no-repeat;
 `;
+
+export const SectionLine = styled.div`
+    height: 1px;
+    width: 20.4375rem;
+    background-color: var(--third-grey);
+`;
