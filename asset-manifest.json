@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.js": "/space-react/static/js/main.8cb9d5bc.js",
+    "main.css": "/space-react/static/css/main.fc0706bd.css",
+    "main.js": "/space-react/static/js/main.ba89a4f3.js",
     "static/js/787.de6df452.chunk.js": "/space-react/static/js/787.de6df452.chunk.js",
     "static/media/image-moon.png": "/space-react/static/media/image-moon.d287d07182de3015952f.png",
+    "static/media/image-europa.png": "/space-react/static/media/image-europa.3e95f7d0a16fe2ebf4c6.png",
+    "static/media/image-mars.png": "/space-react/static/media/image-mars.1b224c8663251270d79f.png",
+    "static/media/image-titan.png": "/space-react/static/media/image-titan.d4b078f9ce17e686ae99.png",
+    "static/media/background-home-mobile.jpg": "/space-react/static/media/background-home-mobile.13f7adecbcb3c3f170d8.jpg",
     "static/media/background-destination-mobile.jpg": "/space-react/static/media/background-destination-mobile.e0131e27e751ead1a922.jpg",
     "index.html": "/space-react/index.html",
     "static/media/logo.svg": "/space-react/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
     "static/media/icon-hamburger.svg": "/space-react/static/media/icon-hamburger.5273efa7c50e96ef3e51e7a2b54048ce.svg",
-    "main.8cb9d5bc.js.map": "/space-react/static/js/main.8cb9d5bc.js.map",
+    "main.fc0706bd.css.map": "/space-react/static/css/main.fc0706bd.css.map",
+    "main.ba89a4f3.js.map": "/space-react/static/js/main.ba89a4f3.js.map",
     "787.de6df452.chunk.js.map": "/space-react/static/js/787.de6df452.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.8cb9d5bc.js"
+    "static/css/main.fc0706bd.css",
+    "static/js/main.ba89a4f3.js"
   ]
 }
