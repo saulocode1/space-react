@@ -16,3 +16,9 @@ export const SectionLine = styled.div`
     width: 20.4375rem;
     background-color: var(--third-grey);
 `;
+
+export const AosDiv = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`;

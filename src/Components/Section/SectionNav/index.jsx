@@ -1,13 +1,26 @@
 import React from "react";
-import { NavLink, StyledNavBar } from "./styled";
+import { Link, StyledNavBar } from "./styled";
+
+import { NavLink as NavLinkRouter } from "react-router-dom";
 
 const NavBar = () => (
-    <StyledNavBar>
-        <NavLink>MOON</NavLink>
-        <NavLink>MARS</NavLink>
-        <NavLink>EUROPA</NavLink>
-        <NavLink>TITAN</NavLink>
-    </StyledNavBar>
-)
+   <StyledNavBar>
+      <Link
+         as={NavLinkRouter}
+         to="/space-react/moon"
+      >
+         MOON
+      </Link>
+      <Link as={NavLinkRouter} to="/space-react/mars">
+         MARS
+      </Link>
+      <Link as={NavLinkRouter} to="/space-react/europa">
+         EUROPA
+      </Link>
+      <Link as={NavLinkRouter} to="/space-react/titan">
+         TITAN
+      </Link>
+   </StyledNavBar>
+);
 
 export default NavBar;
