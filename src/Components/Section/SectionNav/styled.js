@@ -8,8 +8,8 @@ export const Link = styled.a`
    text-decoration: none;
    display: flex;
    flex-direction: column;
-   align-items: center;
-
+   align-items: center
+   
    /* &:after {
        content: "";
        height: 0.1875rem;

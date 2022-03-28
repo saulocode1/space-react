@@ -1,9 +1,9 @@
 import React from "react";
-import { FirstTitle, StyledTextSpan, TitleWrapper } from "./styled";
+import { FirstTitle, StyledNumber, TitleWrapper } from "./styled";
 
 const SectionFirstTitle = ({ titleNumber, firstTitle }) => (
    <TitleWrapper>
-      <StyledTextSpan>{titleNumber}</StyledTextSpan>
+      <StyledNumber>{titleNumber}</StyledNumber>
       <FirstTitle>{firstTitle}</FirstTitle>
    </TitleWrapper>
 );

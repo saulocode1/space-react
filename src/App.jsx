@@ -7,6 +7,7 @@ import MoonSection from "./Sections/Moon";
 import HomeSection from "./Sections/Home";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import CrewSection from "./Components/CrewSection";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -17,18 +18,21 @@ const App = () => {
 
    return (
       <>
-         <Router>
-            <GlobalStyled />
-            <Header />
-            <Routes>
-               <Route path="/space-react/" element={<HomeSection />} />
-               <Route path="/space-react/moon" element={<MoonSection />} />
-               <Route path="/space-react/mars" element={<MarsSection />} />
-               <Route path="/space-react/europa" element={<EuropaSection />} />
-               <Route path="/space-react/titan" element={<TitanSection />} />
-            </Routes>
-         </Router>
+         <GlobalStyled />
+         <CrewSection />
       </>
+      // <>
+      //    <Router>
+      //       <Header />
+      //       <Routes>
+      //          <Route path="/space-react/" element={<HomeSection />} />
+      //          <Route path="/space-react/moon" element={<MoonSection />} />
+      //          <Route path="/space-react/mars" element={<MarsSection />} />
+      //          <Route path="/space-react/europa" element={<EuropaSection />} />
+      //          <Route path="/space-react/titan" element={<TitanSection />} />
+      //       </Routes>
+      //    </Router>
+      // </>
    );
 };
 

@@ -20,18 +20,19 @@ const Section = ({
 }) => (
    <>
       <StyledSection background={background} width={width} height={height}>
+         <SectionFirstTitle firstTitle={firstTitle} titleNumber={titleNumber} />
          <AosDiv data-aos="fade-in">
-            <SectionFirstTitle
-               firstTitle={firstTitle}
-               titleNumber={titleNumber}
-            />
             <SectionImage src={src} />
-            <NavBar />
+         </AosDiv>
+         <NavBar />
+         <AosDiv data-aos="fade-in">
             <MainTitle>{mainTitle}</MainTitle>
             <TextWrapper>
                <SectionText>{sectionText}</SectionText>
             </TextWrapper>
-            <SectionLine />
+         </AosDiv>
+         <SectionLine />
+         <AosDiv data-aos="fade-in">
             <Data dataTitle="AVG. DISTANCE" dataText={distance} />
             <Data dataTitle="Est. travel time" dataText={travelTime} />
          </AosDiv>

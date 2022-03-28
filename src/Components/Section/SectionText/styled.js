@@ -4,8 +4,9 @@ export const FirstTitle = styled.h2`
    font-family: "Barlow Condensed", sans-serif;
    font-weight: 400;
    font-size: var(--font-1);
-   color: var(--first-grey);
+   color: var(--color-white);
    text-transform: uppercase;
+   letter-spacing: 2.7px;
 `;
 
 export const SectionText = styled.p`
@@ -23,18 +24,19 @@ export const TextWrapper = styled.div`
    margin-bottom: 2rem;
 `;
 
-export const StyledTextSpan = styled.span`
+export const StyledNumber = styled.h1`
    font-family: "Barlow Condensed", sans-serif;
-   font-weight: 400;
+   font-weight: 700;
    font-size: var(--font-1);
    color: var(--second-grey);
+   letter-spacing: 2.7px;
 `;
 
 export const TitleWrapper = styled.div`
    max-width: 13.8125rem;
    display: flex;
    justify-content: center;
-   gap: 2rem;
+   gap: 1.125rem;
    align-items: center;
    margin-top: 5.5rem;
    margin-bottom: 2rem;
