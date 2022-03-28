@@ -11,8 +11,8 @@ const GlobalStyled = createGlobalStyle`
         --first-grey: #D0D6F9;
         --second-grey: #4D5057;
         --third-grey: #383B4B;
+        --fourth-grey: #909296;
         --color-white: #FFF;
-
 
         --line-height-1: 1.5625rem; // 25px
         --line-height-2: 6.25rem; // 100px
@@ -25,6 +25,7 @@ const GlobalStyled = createGlobalStyle`
         --font-5: 0.875rem; // 14px
         --font-6: 3.5rem; // 56px
         --font-7: 1.75rem; // 28px
+        --font-8: 1.5rem; // 24px
     }
 `;
 

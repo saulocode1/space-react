@@ -11,6 +11,7 @@ const Section = ({
    firstTitle,
    titleNumber,
    width,
+   maxWidth,
    height,
    src,
    mainTitle,
@@ -19,7 +20,12 @@ const Section = ({
    travelTime,
 }) => (
    <>
-      <StyledSection background={background} width={width} height={height}>
+      <StyledSection
+         background={background}
+         width={width}
+         height={height}
+         maxWidth={maxWidth}
+      >
          <SectionFirstTitle firstTitle={firstTitle} titleNumber={titleNumber} />
          <AosDiv data-aos="fade-in">
             <SectionImage src={src} />

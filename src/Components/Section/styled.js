@@ -5,6 +5,7 @@ export const StyledSection = styled.section`
     flex-direction: column;
     align-items: center;
     max-height: ${(props) => props.maxHeight};
+    max-width: ${(props) => props.maxWidth};
     width: ${(props) => props.width};
     height: ${(props) => props.height};
     background-image: url(${(props) => props.background});
