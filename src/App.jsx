@@ -2,7 +2,8 @@ import GlobalStyled from "./globalStyled";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import TechnologySection from "./Components/TechnologySection";
+// import TechnologySection from "./Components/TechnologySection";
+import VehicleSection from "./Components/TechnologySection/VehicleSection";
 
 const App = () => {
    AOS.init({
@@ -12,7 +13,7 @@ const App = () => {
    return (
       <>
          <GlobalStyled />
-         <TechnologySection />
+         <VehicleSection />
       </>
    );
 };

@@ -4,10 +4,20 @@ import Header from "../Header";
 import SectionFirstTitle from "../Section/SectionText";
 import { TechImage } from "./styled";
 
-import Image from "../../assets/technology/image-launch-vehicle-landscape.png";
 import LinkWrapper from "./TechLink";
+import SectionText from "../SectionText";
 
-const TechnologySection = ({ src }) => (
+const TechnologySection = ({
+   src,
+   marginTop,
+   fontFamily,
+   fontColor,
+   fontHeight,
+   fontSize,
+   sectionSubtitle,
+   sectionTitle,
+   sectionText,
+}) => (
    <>
       <StyledSection
          maxHeight="44.375rem"
@@ -18,8 +28,18 @@ const TechnologySection = ({ src }) => (
       >
          <Header />
          <SectionFirstTitle titleNumber="03" firstTitle="SPACE LAUNCH 101" />
-         <TechImage src={Image} />
+         <TechImage src={src} />
          <LinkWrapper />
+         <SectionText
+            marginTop={marginTop}
+            fontFamily={fontFamily}
+            fontColor={fontColor}
+            fontHeight={fontHeight}
+            fontSize={fontSize}
+            sectionSubtitle={sectionSubtitle}
+            sectionTitle={sectionTitle}
+            sectionText={sectionText}
+         />
       </StyledSection>
    </>
 );
