@@ -12,7 +12,9 @@ const GlobalStyled = createGlobalStyle`
         --second-grey: #4D5057;
         --third-grey: #383B4B;
         --fourth-grey: #909296;
+        --fifth-grey: #4D4D56;
         --color-white: #FFF;
+        --color-black: #000;
 
         --line-height-1: 1.5625rem; // 25px
         --line-height-2: 6.25rem; // 100px
