@@ -33,7 +33,7 @@ export const StyledNumber = styled.h1`
 `;
 
 export const TitleWrapper = styled.div`
-   max-width: 13.8125rem;
+   max-width: 14.8125rem;
    display: flex;
    justify-content: center;
    gap: 1.125rem;

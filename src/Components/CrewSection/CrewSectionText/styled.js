@@ -21,10 +21,10 @@ export const CrewTitle = styled.h1`
 `;
 
 export const StyledCrewText = styled.p`
-   font-size: var(--font-1);
+   font-size: var(--font-3);
    font-family: "Barlow";
    color: var(--first-grey);
-   line-height: 1.1462rem;
+   line-height: 1.5625rem;
    font-weight: 400;
    text-align: center;
 `;

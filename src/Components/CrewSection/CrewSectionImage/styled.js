@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 const CrewImage = styled.img.attrs((props) => ({ src: props.src }))`
-   width: 11.07rem;
+   width: ${(props) => props.imageWidth};
    height: auto;
-   margin-left: 1.25rem;
+   margin-left: ${(props) => props.imageMargin};
 `;
 
 export default CrewImage;

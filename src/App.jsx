@@ -10,6 +10,9 @@ import "aos/dist/aos.css";
 import CrewSection from "./Components/CrewSection";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import MarkSection from "./Components/CrewSection/Crew/Mark";
+import VictorSection from "./Components/CrewSection/Crew/Victor";
+import AnoushehSection from "./Components/CrewSection/Crew/Anousheh";
 
 const App = () => {
    AOS.init({
@@ -19,7 +22,8 @@ const App = () => {
    return (
       <>
          <GlobalStyled />
-         <CrewSection />
+         {/* <CrewSection /> */}
+         <AnoushehSection></AnoushehSection>
       </>
       // <>
       //    <Router>
